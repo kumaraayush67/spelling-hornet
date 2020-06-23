@@ -1,0 +1,47 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(0, 0%, 21%);
+}
+.heading-card{
+    margin-top: 20px;
+    text-align: center;
+}
+.heading-text{
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: -60px;
+    left: -70px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(-10deg);
+}
+.playcard{
+    /* text-align: center; */
+    margin: 20px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 20px 20px 20px;
+    min-height: 50vh;
+}
+.game-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 25vh;
+}
+button{
+    width: 100%;
+}
+.spell-input{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing:20px;
+    
+    /* color: #afa;
+    text-shadow: 0px 0px 1px #fff; */
+    color: transparent;
+    text-shadow: 0px 0px 1px #afa;
+}
